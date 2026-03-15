@@ -1,0 +1,59 @@
+body{
+font-family: Arial;
+background:#1e1e2f;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:white;
+}
+
+.container{
+background:#2a2a40;
+padding:25px;
+border-radius:10px;
+width:300px;
+}
+
+.display{
+display:flex;
+margin-bottom:15px;
+}
+
+.display input{
+flex:1;
+padding:8px;
+border:none;
+}
+
+.display button{
+padding:8px;
+background:#4CAF50;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.options{
+margin:15px 0;
+}
+
+.options label{
+display:block;
+margin:5px 0;
+}
+
+.generate{
+width:100%;
+padding:10px;
+background:#ff9800;
+border:none;
+color:white;
+cursor:pointer;
+font-weight:bold;
+}
+
+#strength{
+margin-top:10px;
+font-weight:bold;
+}
